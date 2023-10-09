@@ -1,0 +1,19 @@
+<div class="container-fluid justify-content-center">
+    <div class="row shop-header p-5">
+        <div class="col-3 d-flex flex-column justify-content-center position-relative">
+            {% if current_user.is_authenticated %}
+            <a href="{{ url_for('site.create') }}" class="btn shop-btn btn-outline-light mt-3" style="position: absolute;">Update Inventory</a>
+            {% else %}
+            <a href="/signin" class="btn btn-outline-light mt-3">Log In</a>
+            {% endif %}
+
+            <!-- Video with fallback image -->
+            <video autoplay muted loop class="w-100 h-100 position-fixed top-0 start-0">
+                <source src="../../../static/css/videos/Full_HD_Marvel_Wallpaper1.mp4" type="video/mp4">
+                <!-- Fallback image -->
+                <img src="../../../static/css/Full_HD_Marvel_Wallpaper.jpg" alt="Fallback Image" class="w-100 h-100">
+            </video>
+            
+        </div>
+    </div>
+</div>

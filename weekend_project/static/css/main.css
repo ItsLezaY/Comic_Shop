@@ -1,0 +1,98 @@
+.shop-header {
+    position: relative;
+    height: 700px;
+    color: black; 
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    overflow: hidden;
+}
+
+.shop-header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .shop-header {
+      height: 500px; /* Adjust as needed */
+      font-size: 60px; /* Adjust as needed */
+    }
+  }
+
+.shop-header .btn {
+    position: absolute;
+    margin-top: 10rem;
+}
+
+.shop-stats {
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.card .img-container {
+    height: 230px; /* Set the desired height */
+    width: 230px; /* Set the desired width */
+    overflow: hidden;
+}
+
+.card .img-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+h2 {
+    text-shadow: rgb(39, 80, 155) 1px 0 10px;
+    margin-bottom: 30rem;
+    margin-left: 35rem;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 4rem; 
+    white-space: nowrap;
+}
+
+
+h3 {
+    text-shadow: rgb(39, 80, 155) 1px 0 10px;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 2rem; 
+    white-space: nowrap;
+    margin-left: 10rem;
+}
+
+.shop-btn {
+    margin: auto;
+    position: absolute;
+    top: 90;
+    left: 50;
+    bottom: 0;
+    height: 40px;
+    width: 200px;
+}
+
+.signup-container {
+    background-image: url('./Wonder_woman.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+}
+
+.signin-container {
+    background-image: url('./Poison_Ivy.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+}
+
+
+

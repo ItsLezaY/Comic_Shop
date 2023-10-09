@@ -1,0 +1,4 @@
+weekend_env
+migrations
+__pycache__
+.env

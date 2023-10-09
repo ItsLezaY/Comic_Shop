@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+
+
+
+{% block content %}
+
+
+
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="row mt-5 mb-5 p-5 shadow border border-primary w-75 rounded" style="background-image: url('../../../static/css/CatwomanVsBatgirl.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class="col text-center mb-3">
+            <h3>Add new inventory</h3>
+        </div>
+        <div class="col">
+            {% include 'productform.html' %}
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
